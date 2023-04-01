@@ -1,0 +1,200 @@
+@media only screen and (max-width: 768px){
+    .hero_section{
+        padding-left: 0px !important;
+        flex-direction: column !important;
+        height: auto;
+    }
+    .background_container .videoTag{
+            width: auto;
+    }
+
+    .hero_content{
+        width: 100% !important;
+    }
+
+    .hero_caption{
+        width: 100% !important;
+    }
+
+}
+
+
+.hero_caption{
+    width: 50%;
+    height: 100vh;
+    padding: 0px;
+    backdrop-filter:  blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero_caption h1{
+    font-size: 40px;
+    text-align: left;
+
+    
+    padding: 50px;
+}
+
+
+.background_container{
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -1;
+    position: absolute;
+}
+
+.videoTag{
+    height: 100vh;
+    width: 100%;
+    transform: scale(1.2);
+  
+}
+
+.hero_section{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.hero_content p{
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.hero_content{
+    margin-top: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: brightness(0.2) blur(2px);
+    width: 40%;
+    height: 100vh;
+    box-shadow: 0px 0px 20px 0px black;
+
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.hero_content p, h1{
+    text-align: left;
+    background: radial-gradient(634.62% 3123.54% at 50.08% -89.74%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+   
+}
+
+.hero_content h1{
+    color: hsl(0, 0%, 28%);
+    font-size: 56px;
+    font-weight: 1000;
+  
+}
+
+
+
+
+.hero_content_roles p{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+.hero_content_caption p{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#cta_btn {
+    width: 38%;
+    transition: .6s ease-out;
+}
+
+#cta_btn:hover{
+    width: 40%; 
+}
+
+.cta_btn i{
+    transform: translateX(-20px);
+}
+
+.cta_btn:hover i{
+    transform: translateX(0px);
+}
+
+.cta_btn a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    background: rgb(0, 64, 255);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.cta_content{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.cta_btn i{
+    transition: .6s ease-in-out;
+    padding-left: -10px;
+    opacity: 0;
+}
+
+.cta_btn a:hover i{
+    padding-left: 10px;
+    opacity: 1;
+}
+
+
+.social_media{
+    transition: .6s ease-in-out;
+    font-size: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.social_media a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    transition: .6s ease-in-out;
+}
+
+.social_media a:hover{
+    transform: scale(1.2);
+
+}
+
+.social_media #github:hover{
+        color: #64658c;
+}
+
+.social_media #Linkedin:hover{
+    color: #0072b1;
+}
+
+.social_media #Youtube:hover{
+    color: #c4302b;
+}

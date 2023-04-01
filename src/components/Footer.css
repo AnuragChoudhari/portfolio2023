@@ -1,0 +1,23 @@
+.footer_container{
+    height: 20vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_container h3{
+    color: #8b8b8b;
+    font-size: 16px;
+}
+
+.footer_container p{
+    font-size: 14px;
+    padding-top: 20px;
+    color: #8b8b8b;
+}

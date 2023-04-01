@@ -1,0 +1,87 @@
+.about_container{
+    height: 1024px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+#resume_btn{
+    color: white;
+    text-decoration: none;
+
+    transition: .6s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(0, 64, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0px 50px 0px;
+    width: 30%;
+}
+#resume_btn i{
+    transition: .6s ease-in-out;
+    padding-left: 0px;
+    transform: translateX(-20px);
+    opacity: 0; 
+}
+
+#resume_btn:hover{
+    width: 35%;
+}
+
+#resume_btn:hover i{
+    transform: translateX(20px);
+    opacity: 1;
+}
+
+
+
+.about_container hr{
+    height: 100vh;
+    margin-left: 50px;
+}
+.about_me_title{
+    color: white;
+    display: flex;
+
+}
+
+.about_me_left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.about_me_title{
+    font-size: 32px;
+    padding: 50px 50px 50px 50px;
+}
+
+.about_me_title i{
+    padding-right: 20px ;
+}
+
+.about_me_left p{
+    padding: 0px 50px 50px 50px;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.about_me_right{
+        padding: 50px;
+        font-size: 24px;
+        width: 50%;
+        
+}
+
+.hr_seprater{
+
+
+
+
+}

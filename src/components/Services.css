@@ -1,0 +1,87 @@
+.services_section{
+    position: relative;
+    background: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 150px;
+
+}
+
+.services_container{
+    display: flex;
+
+}
+
+.services_section h1{
+    padding: 50px;
+    font-size: 32px;
+}
+
+.services_section h2{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.services_section h1 i{
+    padding-right: 10px;
+}
+
+.services_provided1 p{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 50px;
+}
+
+
+.services_provided1 h2 i{
+    padding-right: 10px;
+}
+
+.services_provided1, .services_provided2{
+    width: 50%;
+}
+
+.services_provided2 p{
+    font-size: 14px;
+    padding: 50px;
+    line-height: 21px;
+}
+
+.services_provided2 i{
+    padding-right: 10px;
+}
+
+.skills_web{
+    margin-top: 100px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: .6s ease-in-out;
+}
+
+.skills_web h1{
+    font-size: 40px;
+    padding: 10px;
+    transition: .6s ease-in-out;
+    color: pointer;
+}
+
+
+#ic_html:hover{
+    transform: scale(1.4);
+}
+
+#ic_html:hover .skills_web{
+    background: orange;
+}
+
+
